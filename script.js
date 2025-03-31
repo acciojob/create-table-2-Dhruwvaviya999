@@ -1,8 +1,5 @@
-// let rn = prompt("Input number of rows");
-// let cn = prompt("Input number of columns");
-
-let rn = 3;
-let cn = 4;
+let rn = prompt("Input number of rows");
+let cn = prompt("Input number of columns");
 
 if(parseInt(rn) <= 0 || parseInt(cn) <= 0){
 	alert("Please enter a valid row and column number.");
