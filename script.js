@@ -1,14 +1,12 @@
-let rn = prompt("Input number of rows");
-let cn = prompt("Input number of columns");
-
-if(parseInt(rn) <= 0 || parseInt(cn) <= 0){
-	alert("Please enter a valid row and column number.");
-}
-
-const table = document.querySelector("#myTable");
-
+const table = document.querySelector("#myTable")
 function createTable() {
-    //Write your code here
+    //Write your code here2
+	let rn = prompt("Input number of rows");
+	let cn = prompt("Input number of columns");
+
+	if(parseInt(rn) <= 0 || parseInt(cn) <= 0){
+		alert("Please enter a valid row and column number.");
+	}
 	let table = document.getElementById("myTable");
     table.innerHTML = ""; // Clear existing table
 
